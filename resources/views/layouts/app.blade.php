@@ -55,9 +55,14 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="{{ url('/orders_analysis') }}"><ion-icon name="speedometer-outline"></ion-icon>   {{ __('Orders Analysis') }}</a>
+                                @if(\Auth::user()->is_admin == 1)   
+                                <a class="dropdown-item" href="{{ url('/users') }}"><ion-icon name="speedometer-outline"></ion-icon>   {{ __('Users') }}</a>
+                                @endif
                                 <a class="dropdown-item" href="{{ url('/orders') }}"><ion-icon name="speedometer-outline"></ion-icon>   {{ __('Orders') }}</a>
-
+                                
+                                @if(\Auth::user()->is_admin == 0)
+                                <a class="dropdown-item" href="{{ url('/orders_analysis') }}"><ion-icon name="speedometer-outline"></ion-icon>   {{ __('Orders Analysis') }}</a>
+                                @endif
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
