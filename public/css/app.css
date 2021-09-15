@@ -10959,7 +10959,7 @@ a.text-dark:focus {
 }
 .users-table{
   background: rgb(255 255 255);
-  padding: 30px 15px 15px 15px;
+  padding: 30px 25px 15px 25px;
   border-radius: 5px;
 }
 
@@ -10972,6 +10972,6 @@ a.text-dark:focus {
 .analysis-form{
   justify-content: center !important;
   background: rgb(255 255 255);
-  padding: 20px;
+  padding: 30px 15px 15px 11px;
   border-radius: 5px;
 }
