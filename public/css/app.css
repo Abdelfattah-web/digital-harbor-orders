@@ -72,7 +72,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f8fafc;
+  background-image: linear-gradient(to right, #43cea214,#093794);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -7544,6 +7544,9 @@ button.bg-dark:focus {
 
 .justify-content-center {
   justify-content: center !important;
+  /* background: rgb(255 255 255); */
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .justify-content-between {
@@ -8674,6 +8677,7 @@ button.bg-dark:focus {
 .pb-4,
 .py-4 {
   padding-bottom: 1.5rem !important;
+  margin-top: 3%;
 }
 
 .pl-4,
@@ -10947,4 +10951,27 @@ a.text-dark:focus {
   top: 95px;
   text-align: center;
 }
+.table-orders{
+  background: rgb(255 255 255);
+  padding: 30px 15px 15px 15px;
+  border-radius: 5px;
 
+}
+.users-table{
+  background: rgb(255 255 255);
+  padding: 30px 15px 15px 15px;
+  border-radius: 5px;
+}
+
+.orders-form{
+  justify-content: center !important;
+  background: rgb(255 255 255);
+  padding: 20px;
+  border-radius: 5px;
+}
+.analysis-form{
+  justify-content: center !important;
+  background: rgb(255 255 255);
+  padding: 20px;
+  border-radius: 5px;
+}

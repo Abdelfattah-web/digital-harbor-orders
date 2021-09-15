@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Digital Harbor</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-image: linear-gradient(to right, #43cea214,#093794);
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -36,8 +36,8 @@
 
             .top-right {
                 position: absolute;
-                right: 10px;
-                top: 18px;
+                right: 6%;
+                top: 50%;
             }
 
             .content {
@@ -49,13 +49,32 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #fff;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 18px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
+                background-color: #13121275;
                 text-transform: uppercase;
+                padding: 25px;
+                margin: 25px;
+                border-radius: 45px;
+                transition:.3s;
+            }
+
+            .links > a:hover {
+                color: #fff;
+                padding: 0 25px;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                background-color: #131212;
+                text-transform: uppercase;
+                padding: 25px;
+                margin: 25px;
+                border-radius: 45px;
             }
 
             .m-b-md {
@@ -79,22 +98,7 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+            
         </div>
     </body>
 </html>
